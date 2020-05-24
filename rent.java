@@ -29,7 +29,7 @@ public class rent {
         while (true) {
             int a = sc.nextInt();
             if (a == 1) {
-                System.out.println("成功进入租车系统，以下是所有车辆的信息：");
+                System.out.println("您已成功进入租车系统，以下是所有车辆的信息：");
                 for (int i = 0; i < list.size(); i++) {//遍历打印载客车集合
                     lodebus bus = list.get(i);
                     System.out.println("车序号是:" + bus.getNum() + ",  车辆名称是:" + bus.getName() + ",     租车费用是:" + bus.getCost() + ",  最大载人量是:" + bus.getLode());
